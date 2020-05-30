@@ -1,0 +1,17 @@
+<div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-8">
+          <h1 class="blog-title">{{post.title}}</h1>
+          <span>
+                   <b><i> <h5><p>Author: {{post.username}}</p></h5></i></b>
+                </span>
+          <hr size = "60"  color = "green">
+          <p [innerHTML]="post.content"></p>
+          <hr size = "60"  color = "green">
+        </div>
+      </div>
+  
+    </div>
+  </div>
